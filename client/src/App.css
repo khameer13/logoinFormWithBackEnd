@@ -1,0 +1,306 @@
+/* a{
+  padding: 2px 5px;
+  text-decoration: none;
+  color: black;
+} */
+/* a:hover{
+  color: purple;
+} */
+
+#navlogo{
+  height: 60px;
+}
+/* LOGIN */
+
+    .background-radial-gradient {
+      background-color: hsl(218, 41%, 15%);
+      background-image: radial-gradient(650px circle at 0% 0%,
+          hsl(218, 41%, 35%) 15%,
+          hsl(218, 41%, 30%) 35%,
+          hsl(218, 41%, 20%) 75%,
+          hsl(218, 41%, 19%) 80%,
+          transparent 100%),
+        radial-gradient(1250px circle at 100% 100%,
+          hsl(218, 41%, 45%) 15%,
+          hsl(218, 41%, 30%) 35%,
+          hsl(218, 41%, 20%) 75%,
+          hsl(218, 41%, 19%) 80%,
+          transparent 100%);
+    }
+
+    #radius-shape-1 {
+      height: 220px;
+      width: 220px;
+      top: -60px;
+      left: -130px;
+      background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden;
+    }
+
+    #radius-shape-2 {
+      border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+      bottom: -60px;
+      right: -110px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden;
+    }
+
+    .bg-glass {
+      background-color: hsla(0, 0%, 100%, 0.9) !important;
+      backdrop-filter: saturate(200%) blur(25px);
+    }
+
+    #cntr{
+       
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* error page */
+    #B-home{
+      border: 1px solid grey;
+      background-color: azure;
+    }
+
+    /* about page */
+    /* #about1{
+      box-shadow: 20px -20px 20px 10px;
+      margin-top: 40px;
+   
+      /* margin: 100px; */
+      /* background-color:rgb(240, 239, 239);
+    }
+
+    .aboutitem{
+      height: 300px;
+    }
+    .aboutitem img{
+      height:250px;
+      margin-top: 10px;
+    }
+    #txtalign{
+      align-content: right;
+    } */ 
+
+
+.motapa1{
+  /* background-color:slategray; */
+  width: 250px;
+height: 300px;
+  color: black;
+  border-right:2px solid grey ;
+}
+.motapa2{
+  /* background-color: sandybrown; */
+  width: 600px;
+
+  color:black;
+}
+#coloumn2{
+  padding-top: 100px;
+  padding-left: 50px;
+}
+/* .lambai1{
+  height: 300px; 
+} */
+#about1{
+  margin: 100px;
+  margin-left: 300px;
+}
+#malefemale{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  height:200px ;
+  width: 200px;
+ 
+}
+.ssss{
+padding-top: 55px;
+}
+
+.sizediya{
+  width: 200px;
+  padding-left: 40px;
+}
+
+/* contact page ka */
+.marginideru{
+  padding: 100px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+@media only screen and (max-width: 770px) {
+  #about1{
+      margin: 10px;
+  }
+  .motapa2{
+      width: 100%; 
+  }
+  .motapa1{
+      width: 100%; 
+      height: auto; 
+      padding: 25px;
+  }
+  .sizediya{
+    padding-left: 20px;
+  }
+ #coloumn2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+} 
+/* social media ke links contact waale
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+} 
+.fa{
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+} */
+.sociallogo{
+  height: 75px;
+  padding-right: 30px;
+}
+.sociallogo:hover {
+  opacity: 0.7;
+
+} 
+#chr{
+  border-top: 1px solid rgb(229, 221, 221);
+
+}
+.fa{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 870px) {
+
+  .marginideru{
+    padding: 30px;
+    padding-top: 60px;
+  }
+    .sociallogo{
+      height: 55px;
+      padding-right: 5px;
+    }
+  
+}
+
+/* footer yahanse */
+footer {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.frow {
+  padding: 1em 1em;
+}
+.frow.fprimary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.fcolumn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+.ful {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+/* li:not(:first-child) {
+  margin-top: 0.8em;
+} */
+.ful li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.ful li a:hover {
+  color: #2a8ded;
+}
+.fabout p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+div.fsocial {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.fsocial i {
+  color: #bac6d9;
+}
+
+.fcopyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.ffooter-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.ffooter-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.ffooter-menu a:hover{
+  color: #27bcda;
+}
+.fcopyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .frow.fprimary {
+    grid-template-columns: 1fr;
+  }
+
+}
+/* khatam yahape */
+/* chat app ka css */
+
